@@ -1,0 +1,19 @@
+What is a regular expression?
+A regular expression is a sequence of characters that create a pattern. We can use regular expressions to search for
+ and find these patterns in strings, which enables us to perform complex pattern-matching on strings.
+
+Let's imagine we are given the following string: "The quick brown fox jumps over the lazy dog." If you were tasked
+ with finding the word "jumps," that would not be too difficult. But what happens when you are tasked with finding three
+  or four word characters that start with a vowel and contain at least one other vowel? Finding matching patterns like this 
+  requires something a bit more powerful: that's where regular expressions, or 'regex,' come in.
+
+Regular expressions are commonly used to validate emails, phone numbers, zip codes, passwords, and much more. They are
+ also used to find or replace characters in text files, which makes knowing them very helpful. So let's get started with 
+ creating a regular expression and seeing which JavaScript methods can help us with finding patterns.
+
+Regular Expression syntax
+One way to create a regular expression is to place the pattern between two forward slashes //. Do not worry too much 
+about what patterns look like, we will start with a very simple one. Let's match an exact string of characters. Here is
+ what that looks like:
+
+var pattern = /Elie/;
